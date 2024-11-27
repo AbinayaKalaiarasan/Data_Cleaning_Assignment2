@@ -28,7 +28,7 @@ This dataset contains feedback collected from workers in a factory, where each w
 3. **Data Splitting & Merging**:
    - **Query 8** and **Query 9** were split into two distinct queries to maintain clarity and accuracy in analysis.
    - **Query 14** and **Response 14** were created by merging relevant queries and responses from **Query 8** and **Query 9**, consolidating answers into a single column.
-4. **Text Clean-up**: Specific strings were replaced or trimmed to standardize responses and improve consistency (e.g., fixing "press '1'" to "Press '1'").
+4. **Text Clean-up**: Specific strings were replaced or trimmed to standardize responses and improve consistency (e.g., fixing " press â€œ1â€ or else press â€œ2â€" to "Press 1 or else press 2").
 
 ## **How to Use This Dataset**
 1. **Load the Data**: Import the dataset into Tableau or any other tool for analysis.
